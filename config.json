@@ -1,0 +1,16 @@
+{
+    "CeleryRedis": {
+        "User": "",
+        "Password": "",
+        "Host": "127.0.0.1",
+        "Port": "6379",
+        "DB": "0"
+    },
+    "DataBase": {
+        "User": "root",
+        "Password": "123456",
+        "Host": "127.0.0.1",
+        "Port": 3306,
+        "DB": "test"
+    }
+}
