@@ -29,6 +29,7 @@
 * 本demo主要使用celery + peewee-async实现异步执行任务 + 异步写入数据库
 * 由于celery暂时不支持AsyncIO，所以demo中的task实现是使用同步的方式实现的
 * 关于Celery的配置broker和backend都使用了redis(仅供参考)
+* 数据库的表需要自己预先创建(demo中没有使用peewee-async的建表语句)
 
 ---
 
